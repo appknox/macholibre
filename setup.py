@@ -8,7 +8,7 @@ README = open(os.path.join(here, 'README.rst')).read()
 NEWS = open(os.path.join(here, 'NEWS.txt')).read()
 
 
-__version__ = '1.0.6'
+__version__ = '1.0.7'
 
 
 install_requires = [
