@@ -39,7 +39,7 @@ def parse(macho, out=None, raw=False):
     object in order to handle mulitple input files for script use.
     """
 
-    parser = Parser(macho, raw)
+    parser = Parser(macho)
 
     if out is None:
         return parser.parse()
