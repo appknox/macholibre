@@ -34,12 +34,12 @@ def output_file(out):
         exit(1)
 
 
-def parse(macho, out=None):
+def parse(macho, out=None, raw=False):
     """Parse given mach-o file. Wrap ``parse()`` function from ``Parser``
     object in order to handle mulitple input files for script use.
     """
 
-    parser = Parser(macho)
+    parser = Parser(macho, raw)
 
     if out is None:
         return parser.parse()

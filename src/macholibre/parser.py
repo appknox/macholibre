@@ -37,10 +37,13 @@ class Parser():
     a mach-o binary.
     """
 
-    def __init__(self, path):
+    def __init__(self, path, raw):
         """Initialize instance variables and flags."""
 
-        self.__file = open(path, 'rb')
+        if raw:
+            self.__file = path
+        else:
+            self.__file = open(path, 'rb')
         self.__is_64_bit = True         # default place-holder
         self.__is_little_endian = True  # ^^
         self.__macho = {}
