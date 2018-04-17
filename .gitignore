@@ -11,3 +11,4 @@ src/macholibre/disasm.py
 src/macholibre/__pycache__/
 test/
 dist/
+src/ak_macholibre.egg-info/
