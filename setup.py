@@ -1,5 +1,4 @@
 import os
-import sys
 
 from setuptools import setup, find_packages
 
@@ -9,7 +8,7 @@ README = open(os.path.join(here, 'README.rst')).read()
 NEWS = open(os.path.join(here, 'NEWS.txt')).read()
 
 
-version = '1.0'
+__version__ = '1.0.0'
 
 
 install_requires = [
@@ -20,7 +19,7 @@ install_requires = [
 ]
 
 
-setup(name='ak-macholibre', version=version,
+setup(name='ak-macholibre', version=__version__,
       description="Mach-O & Universal Binary Parser",
       long_description=README + '\n\n' + NEWS, classifiers=[],
       keywords='mach-o universal binary parser mac apple json',

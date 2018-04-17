@@ -10,3 +10,4 @@ src/macholibre/stats.py
 src/macholibre/disasm.py
 src/macholibre/__pycache__/
 test/
+dist/
