@@ -9,7 +9,7 @@ README = open(os.path.join(here, 'README.rst')).read()
 NEWS = open(os.path.join(here, 'NEWS.txt')).read()
 
 
-version = '1.1.0.post1'
+version = '1.1.0.post2'
 
 
 install_requires = [
@@ -20,7 +20,7 @@ install_requires = [
 ]
 
 
-setup(name='macholibre', version=version,
+setup(name='ak-macholibre', version=version,
       description="Mach-O & Universal Binary Parser",
       long_description=README + '\n\n' + NEWS, classifiers=[],
       keywords='mach-o universal binary parser mac apple json',
