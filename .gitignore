@@ -1,3 +1,5 @@
 .DS_Store
 macholibre.egg-info
 macholibre/__pycache__/
+build/
+dist/
