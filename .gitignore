@@ -3,3 +3,4 @@ macholibre.egg-info
 macholibre/__pycache__/
 build/
 dist/
+ak_macholibre.egg-info/
